@@ -13,6 +13,7 @@ if (isset($_GET['login_error'])) { //this is in case we are getting errors in ou
 }
 
 //this is a continuation of the pagination at the bottom.
+//It is not a very hard concept
 $per_page = 5; //try changing to 1 and refresh the index.php page
 if (isset($_GET['page'])) {
     $page = $_GET['page'];
