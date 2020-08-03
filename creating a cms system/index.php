@@ -1,4 +1,5 @@
 <?php
+//Pushed some of this code to github
 session_start(); //we have to include this function on every page where we want to login and use sessions
 include 'includes/database_connection.php';
 $login_err = '';
@@ -25,7 +26,6 @@ $start_from = ($page - 1) * $per_page; //this means that start_from variable wil
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
     <meta charset="UTF-8">
