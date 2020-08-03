@@ -1,4 +1,5 @@
 <?php
+//Pushed some of this code to github
 session_start(); //we have to include this function on every page where we want to login and use sessions
 include 'includes/database_connection.php';
 $login_err = '';
