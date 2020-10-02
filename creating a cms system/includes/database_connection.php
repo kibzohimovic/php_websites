@@ -1,7 +1,7 @@
 <?php
 $server="localhost";
 $user = 'jonathan';
-$password = 'myspace123';
+$password = 'removed password';
 $db = 'cms_system';
 
 // Create connection
